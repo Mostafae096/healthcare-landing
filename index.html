@@ -10,18 +10,23 @@
 <body>
     <section class="main">
         <div class="header">
-            <div class="logo">
-                <div class="logo-char"> <p>T</p></div>
-                <a href="#" class="logo-name">Trafalgar</a>
+            <div class="container">
+                <div class="logo">
+                    <div class="logo-char"> <p>T</p></div>
+                    <a href="#" class="logo-name">Trafalgar</a>
+                </div>
+                <img src="img/menu.svg" class="menu" id="menu" alt="">
+                <nav class="nav-menu" id="navg">
+                    <img src="img/exit.svg" id="exit" class="exit" alt="">
+                    <ul>
+                        <li class="list-bo"><a href="#">Home</a></li>
+                        <li><a href="#">Find a doctor</a></li>
+                        <li><a href="#">Apps</a></li>
+                        <li><a href="#">Testimonials</a></li>
+                        <li><a href="#">About us</a></li>
+                    </ul>
+                </nav>
             </div>
-            <img src="img/menu.svg" class="manu" alt="">
-            <ul>
-                <li class="list-bo">Home</li>
-                <li>Find a doctor</li>
-                <li>Apps</li>
-                <li>Testimonials</li>
-                <li>About us</li>
-            </ul>
         </div>
         <div class="hero">
             <div class="left-col">
@@ -187,7 +192,7 @@
                 <p>Free consultation with our trusted doctors and get the best recomendations</p>    
             </li>
         </ul>
-        <ul class="second-row">
+        <ul>    
             <li>
                 <svg width="68" height="95" viewBox="0 0 68 95" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g clip-path="url(#clip0_33_43)">
@@ -471,5 +476,17 @@
             </div>
         </div>
     </section>
+    <script>
+        const menu = document.getElementById('menu');
+        const exit = document.getElementById('exit');
+        const nav = document.querySelector('nav');
+        
+        menu.addEventListener('click', () => {
+            nav.classList.add('add-nav')
+        });
+        exit.addEventListener('click', () => {
+            nav.classList.remove('add-nav')
+        });
+    </script>
 </body>
 </html>
