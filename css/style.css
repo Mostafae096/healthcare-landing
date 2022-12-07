@@ -1,1 +1,376 @@
-/*# sourceMappingURL=style.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Poppins:wght@400;700&display=swap");
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "inter";
+}
+
+.header {
+  display: flex;
+  place-content: space-between;
+}
+.header .logo-char {
+  display: inline-block;
+  position: relative;
+  width: 41px;
+  height: 41px;
+  border-radius: 50%;
+  background-color: #458FF6;
+}
+.header .logo-char p {
+  color: white;
+  margin-top: 5px;
+  display: block;
+  text-align: center;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 33px;
+}
+.header .logo-name {
+  text-decoration: none;
+  color: #233348;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 100%;
+}
+.header ul {
+  display: none;
+}
+
+.hero {
+  display: block;
+  text-align: center;
+  margin-top: 2em;
+  margin-bottom: 5em;
+}
+.hero .left-col p {
+  width: 18em;
+  color: #7D7987;
+  margin-left: auto;
+  margin-right: auto;
+}
+.hero .left-col .hero-btn {
+  margin-bottom: 5em;
+  background-color: #458FF6;
+  color: white;
+  border-radius: 5em;
+  text-align: center;
+  border-width: 0px;
+  width: 12em;
+  height: 3.5em;
+  font-weight: bold;
+}
+.hero img {
+  width: 70%;
+}
+
+.our-services {
+  margin-top: 5em;
+  display: block;
+  text-align: center;
+}
+.our-services .main-txt {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.our-services .svg-bg {
+  position: absolute;
+  z-index: -1;
+  width: 90%;
+  transform: rotate(20deg);
+  left: 0;
+  margin-left: -3em;
+}
+.our-services li {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5em;
+  background: white;
+  border-radius: 2em;
+  height: 22em;
+  width: 22em;
+}
+.our-services li p {
+  color: #7D7987;
+}
+.our-services li svg {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  margin-left: 2em;
+}
+.our-services li h2 {
+  left: 0;
+  margin-left: 1.5em;
+}
+.our-services li p {
+  left: 0;
+  margin-left: 1.5em;
+}
+.our-services ul {
+  list-style: none;
+  text-align: left;
+}
+.our-services svg {
+  width: 20%;
+}
+.our-services .learn-more1 {
+  border-color: #458FF6;
+  color: #458FF6;
+  background: white;
+  border-radius: 5em;
+  text-align: center;
+  border-width: 1px;
+  width: 12em;
+  height: 3.5em;
+  margin-bottom: 5em;
+}
+
+.Leading-healthcara {
+  margin-top: 2em;
+  margin-bottom: 5em;
+  display: block;
+  text-align: center;
+}
+.Leading-healthcara p {
+  width: 18em;
+  color: #7D7987;
+  margin-left: auto;
+  margin-right: auto;
+}
+.Leading-healthcara .learn-more2 {
+  border-color: #458FF6;
+  color: #458FF6;
+  background: white;
+  border-radius: 5em;
+  text-align: center;
+  border-width: 1px;
+  width: 12em;
+  height: 3.5em;
+  margin-bottom: 5em;
+}
+.Leading-healthcara img {
+  width: 70%;
+}
+
+.app-download {
+  margin-top: 2em;
+  margin-bottom: 5em;
+  display: block;
+  text-align: center;
+}
+.app-download p {
+  width: 18em;
+  color: #7D7987;
+  margin-left: auto;
+  margin-right: auto;
+}
+.app-download .download-btn {
+  display: fl;
+  border-color: #458FF6;
+  color: #458FF6;
+  background: white;
+  border-radius: 5em;
+  text-align: center;
+  border-width: 1px;
+  width: 12em;
+  height: 3.5em;
+  margin-bottom: 5em;
+}
+.app-download .download-btn svg {
+  height: 0.7em;
+  margin-left: 0.7em;
+}
+.app-download img {
+  width: 70%;
+}
+
+.articles {
+  margin-top: 2em;
+  margin-bottom: 5em;
+  display: block;
+  text-align: center;
+}
+.articles li {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3em;
+  margin-top: 5em;
+  border-radius: 2em;
+  height: 25em;
+  width: 22em;
+}
+.articles li img {
+  margin-top: 2em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+.articles li a {
+  margin-top: -9em;
+  margin-left: 2em;
+}
+.articles li p {
+  color: #7D7987;
+}
+.articles li svg {
+  margin-top: 2em;
+  margin-left: 2em;
+}
+.articles li h2 {
+  left: 0;
+  margin-left: 1.5em;
+}
+.articles li p {
+  left: 0;
+  margin-left: 1.5em;
+}
+.articles ul {
+  list-style: none;
+  text-align: left;
+}
+.articles svg {
+  width: 20%;
+}
+.articles p {
+  width: 18em;
+  color: #7D7987;
+  margin-left: auto;
+  margin-right: auto;
+}
+.articles .view-btn {
+  border-color: #458FF6;
+  color: #458FF6;
+  background: white;
+  border-radius: 5em;
+  text-align: center;
+  border-width: 1px;
+  width: 12em;
+  height: 3.5em;
+  margin-bottom: 5em;
+}
+
+.footer {
+  background-image: linear-gradient(#67C3F3, #5A98F2);
+  width: 100%;
+  display: inline-flex;
+}
+
+.footer-group {
+  display: inline-block;
+  margin-top: 7em;
+  margin-left: 2em;
+  text-align: center;
+}
+.footer-group .footer-logo-char {
+  display: inline-block;
+  position: relative;
+  width: 41px;
+  height: 41px;
+  border-radius: 50%;
+  background-color: white;
+}
+.footer-group .footer-logo-char p {
+  color: #5B9BF3;
+  margin-top: 5px;
+  display: block;
+  text-align: center;
+  font-family: "Muli";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 33px;
+}
+.footer-group .footer-logo-name {
+  text-decoration: none;
+  color: white;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 100%;
+}
+.footer-group .detials, .footer-group .copyright {
+  color: white;
+  width: 24.4em;
+}
+.footer-group .footer-lists {
+  margin-top: 0;
+  list-style: none;
+  color: white;
+  display: inline-flex;
+  width: 100%;
+  justify-content: space-between;
+  text-align: center;
+}
+.footer-group .footer-lists .company-about, .footer-group .footer-lists .footer-region, .footer-group .footer-lists .footer-help {
+  margin-top: 0;
+  list-style: none;
+  line-height: 38px;
+}
+.footer-group .footer-lists .company-about {
+  padding-left: 0em;
+}
+.footer-group .footer-lists .company, .footer-group .footer-lists .region, .footer-group .footer-lists .help {
+  font-weight: bold;
+  line-height: 60px;
+}
+
+/*
+.footer-group{
+    display: flex;
+    margin-top: 7em;
+    margin-left: 11.5em;
+    .footer-logo-char{
+        display: inline-block;
+        position: relative;
+        width: 41px;
+        height: 41px;
+        border-radius: 50%;
+        background-color: white;
+        p {
+            color: #5B9BF3;
+            margin-top: 5px;
+            //position: flex;
+            display: block;
+            text-align: center;
+            font-family: 'Muli';
+            font-style: normal;
+            font-weight: bold;
+            font-size: 26px;
+            line-height: 33px;
+        }
+    }
+    .footer-logo-name {
+        text-decoration: none;
+        color: white;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 26px;
+        line-height: 100%;
+    }
+    .detials, .copyright {
+        color: white;
+        width: 24.4em;
+    }
+    .footer-lists {
+        margin-top: 0;
+        list-style: none;
+        color: white;
+        display: inline-flex;
+        width: 100%;
+        .company-about, .footer-region, .footer-help{
+            margin-top: 0;
+            list-style: none;
+            line-height: 38px;
+            width: 15em;
+        }
+        .company, .region, .help{
+            font-weight: bold;
+            line-height: 60px;
+        }
+    }
+}*//*# sourceMappingURL=style.css.map */
